@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    image: "cxmcc/webinspect"
+    networks:
+      - nw
+  nginx:
+    build: "nginx"
+    networks:
+      - nw
+    ports:
+      - 8080:80
+networks:
+  nw:
+    driver: bridge
