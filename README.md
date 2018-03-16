@@ -4,12 +4,12 @@ The script handles mostly the build for nginx binary with the nginx module.
 
 ## How to run this
 ```sh
-$ docker-compose up
-Starting scaleftnginxaccessfabricpoc_nginx_1 ... 
-Starting scaleftnginxaccessfabricpoc_nginx_1
-Starting scaleftnginxaccessfabricpoc_app_1 ... 
-Starting scaleftnginxaccessfabricpoc_nginx_1 ... done
-Attaching to scaleftnginxaccessfabricpoc_app_1, scaleftnginxaccessfabricpoc_nginx_1
+$ docker-compose up --build
+Starting pocnginxauthaccessfabric_app_1 ... 
+Starting pocnginxauthaccessfabric_app_1 ... done
+Starting pocnginxauthaccessfabric_nginx_1 ... 
+Starting pocnginxauthaccessfabric_nginx_1 ... done
+Attaching to pocnginxauthaccessfabric_app_1, pocnginxauthaccessfabric_nginx_1
 app_1    |  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
 app_1    |  * Restarting with stat
 app_1    |  * Debugger is active!

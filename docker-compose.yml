@@ -8,6 +8,8 @@ services:
     build: "nginx"
     networks:
       - nw
+    depends_on:
+      - app
     ports:
       - 8080:80
 networks:
