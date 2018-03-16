@@ -1,5 +1,6 @@
 # poc_nginx_auth_accessfabric
-POC for accessfabric nginx module (build scripts)
+POC for scaleft's accessfabric nginx module (https://github.com/ScaleFT/nginx_auth_accessfabric) (build scripts)
+The script handles mostly the build for nginx binary with the nginx module. 
 
 ## How to run this
 ```sh
